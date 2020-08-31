@@ -1,0 +1,16 @@
+package main.kotlin
+
+fun main() {
+    val name = "Kotlin"
+    val age = 4
+    val version = "1.3.70"
+
+    //print(" Nama saya $name \n Saya berusia $age tahun \n Saat ini saya sudah mencapai versi $version")
+
+    val hasil = """
+        Nama saya $name
+        Saya berusia $age tahun
+        Saat ini saya sudah mencapai versi $version
+    """.trimIndent()
+    print(hasil)
+}
